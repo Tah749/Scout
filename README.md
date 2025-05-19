@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚽ Fantasy Football League Website
 
-## Getting Started
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-First, run the development server:
+A full-featured fantasy football website built for my **GCSE Computer Science Coursework (OCR H446-03)** in **2022** at Huntington School.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This platform allows users to build fantasy football teams using real-world Premier League data, compete in leagues, and get AI-based squad recommendations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Testing videos are located in Showcase
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🚀 Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **User Accounts**: Sign up, login, and secure passwords with encryption.
+- **Real-Time Data**: Fetch player stats, match fixtures, and points using public football APIs.
+- **AI Squad Generator**: Python-based machine learning to suggest optimal teams.
+- **Live Fixtures**: View upcoming matches with time/date.
+- **Autocomplete Search**: Easily find players and clubs with a dynamic search bar.
+- **Transfer & Captain System**: Build and edit your team each week with budget limits and special features.
+- **Leagues**: Create and join leagues, track rankings of friends and other users.
+- **Help & Settings**: Tutorial, rules, and user account management.
+- **Secure MongoDB Storage**: Store user data and team details in the cloud.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer        | Technologies                     |
+|--------------|----------------------------------|
+| Frontend     | HTML, CSS, React (Next.js)       |
+| Backend      | Node.js, Express.js              |
+| AI Module    | Python with ML libraries         |
+| Database     | MongoDB (via Mongoose)           |
+| APIs         | Fantasy Premier League API, API-Football |
+| Styling      | Google Fonts, Font Awesome, Flaticon |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> 📌 Requires: Node.js, npm, Python 3, MongoDB Atlas account
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+
+- [Fantasy Premier League API](https://fantasy.premierleague.com/api/)
+- [API-Football](https://www.api-football.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Flaticon](https://www.flaticon.com/) — for icon assets
+- [Google Fonts](https://fonts.google.com/) — for typography
+- [The Alan Turing Institute – AIrsenal](https://github.com/alan-turing-institute/AIrsenal) — inspiration for AI logic
