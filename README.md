@@ -2,9 +2,7 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-# Scout
-[!Logo](public/images/football.png)
-<img src="public/images/football.png" alt="Logo" width="300" height="300"/>
+# Scout <img src="public/images/football.png" alt="Logo" width="50" height="50"/>
 
 A full-featured fantasy football website built in **2022**, for my **GCSE Computer Science Coursework (OCR H446-03)**.
 
