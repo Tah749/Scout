@@ -1,0 +1,55 @@
+
+
+.searchBar {
+    background-color: white;
+    
+    display: block; /*Aligns the input boxes on top of each other*/
+    padding: 10px;
+    padding-right: 10%; /*Add whitespace to the right side of the input boxes*/
+    
+    margin: auto; /*Centre the input boxes*/
+    font-family: inherit;
+    font-size: 28px;
+
+    color: black; /*Make text black*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.resultsList {
+    margin: auto;
+    text-align: center;
+
+    width: 20%;
+}
+
+.singleResult {
+    display: block;
+
+    font-size: 24px;
+
+    border: 2px solid white;
+    background-color: white;
+
+    color: black;
+
+    padding: 10px;
+
+    cursor: default;
+
+    transition-duration: 0.2s;
+}
+
+.singleResult:hover {
+    border: 2px solid black;
+    font-size: 24px;
+    
+    cursor: pointer;
+}
+
+.singleResult:active {
+    border: 2px solid black;
+    font-size: 26px;
+
+    cursor: pointer;
+
+}

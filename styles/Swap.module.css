@@ -1,0 +1,81 @@
+.goBackBtn {
+    background-color: #152238; /*Blend into the background*/
+    border: none; /*Get rid of border*/
+    color: white; /*Make text colour white*/
+
+    padding: 15px  32px;
+
+    display: block; /*Align the boxes on top of each other*/
+    margin: 40px auto; /*Centre the buttons and some space in between them*/
+
+    font-size: 32px; /*Enlarge buttons*/
+
+    padding-left: 5%; /*Make the buttons bigger*/
+    padding-right: 5%; /*Make the buttons bigger*/
+
+    transition-duration: 0.4s; /*Smooth transition for when hovering over buttons*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.goBackBtn:hover {
+    background-color: #0b1a33; /*Darken the colour of button when hovered*/
+
+    cursor: pointer; /*Change cursor type when hovering*/
+    font-size: 40px; /*Enlarge font size when hovering*/
+
+    margin: 36px auto; /*By reducing the space between, this stops the other button from getting pushed when enlarging original button*/
+}
+
+.searchBar {
+    background-color: white;
+    
+    display: block; /*Aligns the input boxes on top of each other*/
+    padding: 10px;
+    padding-right: 10%; /*Add whitespace to the right side of the input boxes*/
+    
+    margin: auto; /*Centre the input boxes*/
+    font-family: inherit;
+    font-size: 28px;
+
+    color: black; /*Make text black*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.resultsList {
+    margin: auto;
+    text-align: center;
+
+    width: 20%;
+}
+
+.singleResult {
+    display: block;
+
+    font-size: 24px;
+
+    border: 2px solid white;
+    background-color: white;
+
+    color: black;
+
+    padding: 10px;
+
+    cursor: default;
+
+    transition-duration: 0.2s;
+}
+
+.singleResult:hover {
+    border: 2px solid black;
+    font-size: 24px;
+    
+    cursor: pointer;
+}
+
+.singleResult:active {
+    border: 2px solid black;
+    font-size: 26px;
+
+    cursor: pointer;
+
+}

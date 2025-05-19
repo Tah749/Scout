@@ -1,0 +1,70 @@
+.playerName { /* Title of the page */
+    display: inline-block; /* Inline with picture */
+    font: inherit; /* Use the same font as the rest of the website */
+    font-size: 60px;
+    margin: auto; /* Centre text */
+}
+
+.playerPicture { /* Picture of footballer */
+    width: 300px; 
+    height: 300px;
+    float: left; /* Pictures rests on the left hand side of the page */
+    margin: auto;
+}
+
+.grid_container {
+    display: grid; /* Display information in a grid of 4 */
+    grid-template-columns: auto auto; /* 2 by 2 format */
+    margin: 20px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.subheading {
+    font-size: 26px; 
+    border: none;
+    margin: auto;
+    font-weight: bold; /* Make font size deeper */
+}
+
+.informationField {
+display: block;
+margin: 2px;
+border-top: 1px solid white; /* Line to seperate information */
+}
+
+.dataField {
+display: block;
+margin: 2px;
+}
+
+
+.goBackBtn {
+    background-color: #152238; /*Blend into the background*/
+    border: none; /*Get rid of border*/
+    color: white; /*Make text colour white*/
+
+    padding: 15px  32px;
+
+    display: block; /*Align the boxes on top of each other*/
+    margin: 40px auto; /*Centre the buttons and some space in between them*/
+
+    font-size: 32px; /*Enlarge buttons*/
+
+    padding-left: 5%; /*Make the buttons bigger*/
+    padding-right: 5%; /*Make the buttons bigger*/
+
+    transition-duration: 0.4s; /*Smooth transition for when hovering over buttons*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.goBackBtn:hover {
+    background-color: #0b1a33; /*Darken the colour of button when hovered*/
+
+    cursor: pointer; /*Change cursor type when hovering*/
+    font-size: 40px; /*Enlarge font size when hovering*/
+
+    margin: 36px auto; /*By reducing the space between, this stops the other button from getting pushed when enlarging original button*/
+}

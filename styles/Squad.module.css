@@ -1,0 +1,34 @@
+.container {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
+  .players {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .player {
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .playerPicture {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .player h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .player h2 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }

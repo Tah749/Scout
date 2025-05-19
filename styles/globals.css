@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #192841;
+  }
+}
+.container {
+  max-width: auto;
+  margin: 0 auto;
+}
+/* 
+
+Navbar.JS
+
+*/
+
+.title {
+  display: inline-block; /*Sits the title next to the logo*/
+  font-size: 72px;
+  margin-top: 1%;
+  padding: 12px 28px; /*Seperates the title and logo and adds space in between*/
+}
+
+.titleLogo {
+  display: inline-block; /*Sits the title next to the logo*/
+  width: 75px;
+}
+
+.navIcons {
+  background-color: #192841; /*Blend the background into the website background*/
+
+  display: inline; /*Display the icons side-by-side*/
+  float: right; /*Position the icons on the right of the screen*/
+  margin-top: 2%;
+
+  border: none; /*Get rid of the border as to blend in to the background*/
+  padding: 12px 48px; /*Space out the buttons*/
+  font-size: 48px; /*Enlarge the buttons*/
+  cursor: pointer; /*Change mouse to pointer when hovering over*/
+
+  transition-duration: 0.2s;
+}
+
+.navIcons:hover {
+  background-color: #152238; /*Change the background colour of the selected button*/
+  font-size: 54px; /*Enlarge the button when hovered*/
+}
+
+/*
+
+Footer.js
+
+*/
+.footer {
+  margin: 1rem;
+  text-align: center;
+}
+
+#footerText {
+  display: inline;
+  float: left;
+  font-size: 38px;
+  margin-bottom: 0%;
+  padding: 12px 28px; /* Some padding */
+}
+
+#footerLogo {
+  display: inline;
+  float: left;
+  margin-bottom: 0%;
+}
+
+#footerAuthor {
+  display: inline;
+  float: right;
+  font-size: 32spx;
+  margin-bottom: 0%;
+  padding: 12px 28px; /* Some padding */
+}
+
+/*
+
+Scoreboard.js
+
+*/
+
+.scoreboard {
+  border: black 1px solid;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.editTeam {
+  font-size: 30px;
+}
+
+/* 
+
+editTeam.JS
+
+*/
+
+.editTeamBtn {
+  background-color: #192841; /*Blend the background into the website background*/
+
+  display: inline; /*Display the icons side-by-side*/
+  float: left; /*Position the icons on the right of the screen*/
+  margin: 2%;
+
+  font-family: 'Oswald', 'helvetica';
+
+  border: 2px solid black; /*Get rid of the border as to blend in to the background*/
+  padding: 12px 48px; /*Space out the buttons*/
+  font-size: 32px; /*Enlarge the buttons*/
+  cursor: pointer; /*Change mouse to pointer when hovering over*/
+
+  transition-duration: 0.2s;
+}
+
+.editTeamBtn:hover {
+  font-size: 40px;
+}
+
+.teamModal {
+  display: block;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.editTeamContent {
+  background-color: #152238;
+  margin: 3% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.closeModal {
+  color: #aaa;
+  float: right;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.closeModal:hover,
+.closeModal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.positionHeading {
+  text-align: center;
+}
+
+.playersRow {
+  margin: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid white;
+  padding: 20px;
+
+  display: flex;
+
+  font-size: 30px;
+
+  transition-duration: 0.2s;
+}
+
+.playersRow:hover {
+  background-color: #152238; /* Change the background colour of the selected button */
+  font-size: 42px; /* Enlarge the button when hovered */
+
+  color: goldenrod /* Change colour of text when hovered */
+}
+
+.playerPicture {
+  object-fit: contain; /* Ensures tbat the image is not stretched */
+  width: 90px;
+}
+
+.playerTitles {
+  font-size: 32px;
+  margin: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+
+  display: flex;
+  justify-content: space-between;
+
+  transition-duration: 0.2s;
+}
+
+.playerPoints {
+  font-size: 32px;
+  margin: 30px;
+  float: right;
+  text-align: right;
+
+  display: flex;
+  justify-content: space-between;
+
+  transition-duration: 0.2s;
+}
+
+.playerName {
+  font-size: 32px;
+  margin: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+
+  display: flex;
+  justify-content: space-between;
+
+  transition-duration: 0.2s;
+}
+
+.playerName:hover {
+  font-size: 40px;
+  margin: 28px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+ cursor: pointer;
+}
+
+.submitBtn {
+  background-color: #152238; /*Blend into the background*/
+    border: none; /*Get rid of border*/
+    color: white; /*Make text colour white*/
+
+    padding: 15px  32px;
+
+    display: block; /*Align the buttons on top of each other*/
+    margin: 40px auto; /*Centre the buttons and some space in between them*/
+
+    font-size: 32px; /*Enlarge buttons*/
+
+    padding-left: 5%; /*Make the buttons bigger*/
+    padding-right: 5%; /*Make the buttons bigger*/
+
+    transition-duration: 0.4s; /*Smooth transition for when hovering over buttons*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.submitBtn:hover {
+  background-color: #0b1a33; /*Darken the colour of button when hovered*/
+
+  cursor: pointer; /*Change cursor type when hovering*/
+  font-size: 40px; /*Enlarge font size when hovering*/
+
+  margin: 36px auto; /*By reducing the space between, this stops the other button from getting pushed when enlarging original button*/
+}
+
+.inputBox {
+  background-color: white;
+
+  display: block; /*Aligns the input boxes on top of each other*/
+  padding: 10px;
+  padding-right: 10%; /*Add whitespace to the right side of the input boxes*/
+
+  margin: auto; /*Centre the input boxes*/
+  font-size: 28px;
+
+  color: black; /*Make text black*/
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}

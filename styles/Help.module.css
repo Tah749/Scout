@@ -1,0 +1,85 @@
+.title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.howTo {
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.rules {
+    text-align: center;
+    font-size: 22px;
+}
+
+.settings {
+    text-align: center;
+}
+
+.changeBtn {
+    background-color: #152238; /*Blend into the background*/
+    border: none; /*Get rid of border*/
+    color: white; /*Make text colour white*/
+
+    padding: 15px  32px;
+
+    display: block; /*Align the buttons on top of each other*/
+    margin: 40px auto; /*Centre the buttons and some space in between them*/
+
+    font-size: 32px; /*Enlarge buttons*/
+
+    padding-left: 5%; /*Make the buttons bigger*/
+    padding-right: 5%; /*Make the buttons bigger*/
+
+    transition-duration: 0.4s; /*Smooth transition for when hovering over buttons*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Create a 3d effect*/
+}
+
+.ModalBox {
+    display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+/* Modal Content/Box */
+.editModalContent {
+    background-color: #152238;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+
+  .closeModal {
+    color: #aaa;
+    float: right;
+    font-size: 64px;
+    font-weight: bold;
+  }
+  
+  .closeModal:hover,
+  .closeModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.error {
+  color: red;
+  text-align: center;
+}

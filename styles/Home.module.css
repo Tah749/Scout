@@ -1,0 +1,46 @@
+
+.field {
+    text-align: center; /* Align images in the centre */
+}
+
+.playerName {
+    text-align: center; /* Align names in the centre */
+    display: inline-block; /* Align names below asscociated football top */
+    margin: 1%; /* Add space around text */
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.players {
+    width: 100px;
+    margin: 20px;
+
+    transition-duration: 0.2s; /* time taken for image to enlarge */
+}
+
+.players:hover {
+    width: 120px; /* Enlarge the image */
+    margin: 10px; /* Make the margin smaller to counteract the increase in width */
+}
+
+.leagueBtn {
+    background-color: #192841; /*Blend the background into the website background*/
+  
+    display: inline; /*Display the icons side-by-side*/
+    float: right; /*Position the icons on the right of the screen*/
+    margin: 2%;
+  
+    font-family: 'Oswald', 'helvetica';
+  
+    border: 2px solid black; /*Get rid of the border as to blend in to the background*/
+    padding: 12px 48px; /*Space out the buttons*/
+    font-size: 32px; /*Enlarge the buttons*/
+    cursor: pointer; /*Change mouse to pointer when hovering over*/
+  
+    transition-duration: 0.2s;
+  }
+
+.leagueBtn:hover {
+  font-size: 40px;
+}
+  
