@@ -2,7 +2,7 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-A full-featured fantasy football website built for my **GCSE Computer Science Coursework (OCR H446-03)** in **2022** at Huntington School.
+A full-featured fantasy football website built in **2022**, for my **GCSE Computer Science Coursework (OCR H446-03)**.
 
 This platform allows users to build fantasy football teams using real-world Premier League data, compete in leagues, and get AI-based squad recommendations.
 
