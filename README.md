@@ -6,8 +6,6 @@ A full-featured fantasy football website built for my **GCSE Computer Science Co
 
 This platform allows users to build fantasy football teams using real-world Premier League data, compete in leagues, and get AI-based squad recommendations.
 
-Testing videos are located in Showcase
-
 ---
 
 ## 🚀 Features
